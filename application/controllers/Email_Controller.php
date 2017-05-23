@@ -38,8 +38,8 @@
             'protocol' => 'smtp',
             'smtp_host' => 'ssl://smtp.googlemail.com',
             'smtp_port' => 465,
-            'smtp_user' => 'ramadhanagindo@gmail.com', // change it to yours
-            'smtp_pass' => 'p@ssIsblu3', // change it to yours
+            'smtp_user' => '', // change it to yours
+            'smtp_pass' => '', // change it to yours
             //'smtp_user' => 'agindo093ramadhan@gmail.com', // change it to yours
             //'smtp_pass' => 'p@ssisblu3', // change it to yours
             'mailtype' => 'html',
@@ -50,7 +50,7 @@
          $message = 'email_sent","Email sent successfully';
          $this->load->library('email', $config);
          $this->email->set_newline("\r\n");
-         $this->email->from('ramadhanagindo@gmail.com'); // change it to yours
+         $this->email->from(''); // change it to yours
          $this->email->to($this->input->post('email'));// change it to yours
          $this->email->subject('Resume from JobsBuddy for your Job posting');
          $this->email->message($message);
