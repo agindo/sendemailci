@@ -40,8 +40,6 @@
             'smtp_port' => 465,
             'smtp_user' => '', // change it to yours
             'smtp_pass' => '', // change it to yours
-            //'smtp_user' => 'agindo093ramadhan@gmail.com', // change it to yours
-            //'smtp_pass' => 'p@ssisblu3', // change it to yours
             'mailtype' => 'html',
             'charset' => 'iso-8859-1',
             'wordwrap' => TRUE
